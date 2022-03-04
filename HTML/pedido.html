@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+
+    <h1>Cakelicious</h1>
+
+    <h2>Por favor realice su orden</h2>
+    <form action="inicio.html" id="form1" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+            <label for="correo1">Correo:</label><br>
+            <input type="email" id="correo1" name="correo1"><br><br>
+            
+            <label for="tel1">Teléfono:</label><br>
+            <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+            
+            <label for="des">Descripción:</label><br>
+            <input type="des" id="des" name="des" size="50"><br><br>
+
+            <h3>Sabores</h3>
+            Selecciones uno o más sabores.<br>
+            <input type="checkbox" id="sabor1" name="sabor1" value="Chocolate">
+            <label for="sabor1">Chocolate</label><br>
+            <input type="checkbox" id="sabor2" name="sabor2" value="Vainilla">
+            <label for="sabor2">Vainilla</label><br>
+            <input type="checkbox" id="sabor3" name="sabor3" value="Naranja">
+            <label for="sabor3">Naranja</label><br>
+            <input type="checkbox" id="sabor4" name="sabor4" value="Cajeta">
+            <label for="sabor4">Cajeta</label><br><br>
+
+            <h3>Decoraciones</h3>
+            Selecciones una o más decoraciones.<br>
+            <input type="checkbox" id="deco1" name="deco1" value="Flores">
+            <label for="deco1">Flores comestibles</label><br>
+            <input type="checkbox" id="deco2" name="deco2" value="Fondant">
+            <label for="deco2">Fondant</label><br>
+            <input type="checkbox" id="deco3" name="deco3" value="Fruta">
+            <label for="deco3">Fruta</label><br>
+            <input type="checkbox" id="deco4" name="deco4" value="Betun">
+            <label for="deco4">Betun</label><br><br>
+
+            <input type="submit">
+            <input type="reset">
+            <a href="inicio.html">Cancelar</a>
+            <br>
+    </form>
+    
+</body>
+</html>
