@@ -1,0 +1,33 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.pokedex{
+    position: absolute;
+    background-image: url("fondo.png");
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    background-size: contain;
+}
+
+.imgtxt{
+    position: absolute;
+    top: 27%;
+    right: 65%;
+    align-content: center;
+    font-size: 30px;
+    font-weight:800;
+    text-align: center;
+}
+
+.info{
+    position: absolute;
+    top: 27%;
+    right: 15%;
+    align-content: center;
+    font-size: 15px;
+    color: rgb(221, 221, 17);
+    font-weight:800;
+    text-align:left;
+}

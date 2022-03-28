@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="Pokedex.css">
+    
+</head>
+<body>
+    <section>
+        <h2>Ingrese el pokemon que desea</h2>
+        <label for="pokemon">Nombre:</label>
+        <input type="text" placeholder="Ditto" id="npokemon" name="npokemon">
+        <br>
+        <br>
+        <button onclick="fetchPokemon()">Buscar</button>
+    </section>
+    <section class="pokedex">
+        <section class="imgtxt">
+            <img src="pokebola.png" alt="seguridad" id="img" width="150px" height="150px">
+            <br>
+
+            <label for="nombre" id="nombre" >Pokemon</label>
+        </section>
+        <section class="info">
+            Tipo: <label for="tipo" id="tipo"></label>
+            <br>
+            Movimientos: <label for="mov" id="mov"></label>
+            <br>
+            PS: <label for="ps" id="ps"></label>
+            <br>
+            Ataque: <label for="atk" id="atk"></label>
+            <br>
+            Defensa: <label for="def" id="def"></label>
+            <br>
+            Ataque Especial: <label for="atks" id="atks"></label>
+            <br>
+            Defensa Especial: <label for="defs" id="defs"></label>
+            <br>
+            Velocidad: <label for="vel" id="vel"></label>
+        </section>
+    </section>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
